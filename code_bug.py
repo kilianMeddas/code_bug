@@ -35,7 +35,7 @@ class Character(pg.sprite.Sprite):
         screen.blit(self.file, self.rect, area=frame_rect)
 
 '''la classe et le code d'en dessous sont séparé dans deux codes différents, file étant mon image'''
-file = Character('assets/Anakin_Skywalker1-removebg-preview.png',1000, 500)
+file = Character('Anakin_Skywalker1-removebg-preview.png',1000, 500)
 frame = 0
 width_perso = 100
 frame_rect = pg.Rect(frame*width_perso, 0, 50, file.height_file)
